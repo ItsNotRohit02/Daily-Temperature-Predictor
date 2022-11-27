@@ -1,0 +1,36 @@
+REGIONS
+['Africa' 'Asia' 'Australia/South Pacific' 'Europe' 'Middle East'
+ 'North America' 'South/Central America & Carribean']
+
+COUNTRIES
+['Egypt' 'Nigeria' 'South Africa' 'Bangladesh' 'China' 'Hong Kong' 'India'
+ 'Indonesia' 'Japan' 'Malaysia' 'Nepal' 'Pakistan' 'Singapore'
+ 'South Korea' 'Sri Lanka' 'Taiwan' 'Thailand' 'Australia' 'Austria'
+ 'Belgium' 'Czech Republic' 'Denmark' 'France' 'Greece' 'Hungary'
+ 'Iceland' 'Ireland' 'Italy' 'The Netherlands' 'Russia' 'Spain' 'Sweden'
+ 'Switzerland' 'Ukraine' 'United Kingdom' 'Israel' 'Kuwait' 'Oman' 'Qatar'
+ 'Saudi Arabia' 'Turkey' 'United Arab Emirates' 'Canada' 'Mexico' 'Brazil'
+ 'US']
+
+CITIES
+['Cairo' 'Lagos' 'Capetown' 'Dhaka' 'Beijing' 'Shanghai' 'Hong Kong'
+ 'Mumbai' 'Kolkata' 'Chennai' 'Delhi' 'Jakarta' 'Osaka' 'Tokyo'
+ 'Kuala Lumpur' 'Katmandu' 'Islamabad' 'Karachi' 'Singapore' 'Seoul'
+ 'Colombo' 'Taipei' 'Bangkok' 'Canberra' 'Melbourne' 'Sydney' 'Vienna'
+ 'Brussels' 'Prague' 'Copenhagen' 'Paris' 'Athens' 'Budapest' 'Reykjavik'
+ 'Dublin' 'Milan' 'Rome' 'Amsterdam' 'Moscow' 'Barcelona' 'Madrid'
+ 'Stockholm' 'Geneva' 'Zurich' 'Kiev' 'Belfast' 'London' 'Tel Aviv'
+ 'Kuwait' 'Muscat' 'Doha' 'Riyadh' 'Istanbul' 'Abu Dhabi' 'Dubai'
+ 'Halifax' 'Montreal' 'Toronto' 'Vancouver' 'Mexico City' 'Rio de Janeiro'
+ 'Phoenix' 'Los Angeles' 'Sacramento' 'San Diego' 'San Francisco' 'Denver'
+ 'Washington DC' 'Miami' 'Orlando' 'Honolulu' 'Chicago' 'New Orleans'
+ 'Portland' 'Boston' 'Omaha' 'Reno' 'Las Vegas' 'New York City'
+ 'Cleveland' 'Oklahoma City' 'Philadelphia' 'Pittsburgh' 'Memphis'
+ 'Nashville' 'Austin' 'Houston' 'Salt Lake City' 'Seattle']
+
+CITY CODE
+[  0   2   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19
+  21  22  23  24  25  28  29  31  32  33  34  35  37  42  43  44  45  46
+  47  48  53  54  55  56  58  59  60  61  62  63  64  66  67  68  70  71
+  72  75  76  79  80  82  84  95  98  99 100 101 103 105 108 109 112 113
+ 118 119 121 125 126 127 131 134 135 137 138 140 141 142 143 144 145]
