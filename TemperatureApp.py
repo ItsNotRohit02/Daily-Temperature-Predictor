@@ -13,6 +13,11 @@ with st.container():
     st.write('We use a Machine Learning Algorithm called Decision Tree Regression to learn from over 800,000 data entries'
              ' collected over 25 years across 88 cities and 46 countries to create a complex and accurate model to predict the temperature of any'
              ' city at any given day of the year.')
+    today = datetime.date.today()
+    currentday = today.day
+    currentmonth = today.month
+    cmdict={1:'Jan',2:'Feb',3:'March',4:'April',5:'May',6:'June',7:'July',8:'Aug',9:'Sep',10:'Oct',11:'Nov',12:'Dec'}
+    cm=cmdict[currentmonth]
 
 
 with st.container():
@@ -67,12 +72,11 @@ with st.container():
  'Houston':143, 'Salt Lake City':144, 'Seattle':145, 'Milwaukee':146, 'San Juan (Puerto Rico)':147}
     c=citydict[city]
 
-    month = st.select_slider('Select Month',['Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec'])
+    month = st.select_slider('Select Month' ,['Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','Dec'],value=cm)
     monthdict={'Jan':1,'Feb':2,'March':3,'April':4,'May':5,'June':6,'July':7,'Aug':8,'Sep':9,'Oct':10,'Nov':11,'Dec':12}
     m=monthdict[month]
 
-    d = st.slider('Select Day', 1, 31)
-    today = datetime.date.today()
+    d = st.slider('Select Day',1, 31,value=currentday)
     y = today.year
 
 
