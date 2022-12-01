@@ -13,6 +13,7 @@ city at any given day of the year.
 * This should open a webpage that looks like [this](https://itsnotrohit02-daily-temperature-predictor-temperatureapp-1ia1gd.streamlit.app/).
 
 ## Extra
+* The Accuracy Score of the ML Model is 91%.
 * Due to 100MB file size restriction on GitHub, I had to severely reduce the 
 number of cities in the Program. 
 * Download FullTemperaturePredictor.zip and check it out as it contains the original program
