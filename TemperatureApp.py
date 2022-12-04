@@ -100,4 +100,5 @@ with col2:
 with st.container():
     st.success(f"The Temperature in {city} on {d} {month} is most likely going to be {t1} °C ")
     st.caption("Made by Rohit")
+    st.markdown("[![Foo](https://cdn-icons-png.flaticon.com/24/25/25231.png)](https://github.com/ItsNotRohit02)")
 
