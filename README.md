@@ -1,10 +1,21 @@
 # Temperature Predictor
 ## How it Works
-This Program uses a Machine Learning Algorithm called Decision Tree Regression to learn from over 800,000 data entries 
-collected over 25 years across 88 cities and 46 countries to create a complex and accurate model to predict the temperature of any 
-city at any given day of the year.
+This Python program uses the streamlit, pandas and sklearn libraries to train a decision tree regression model on a dataset of 
+daily temperature data. The dataset is read in using the pandas library and stored in a DataFrame called rawdata. 
+The features (or independent variables) for the model are stored in the DataFrame X, while the target (or dependent variable) 
+is stored in the variable y.
+
+The sklearn library is then used to create a decision tree regression model and train it on the data stored in X and y. 
+The trained model is then saved to a file called TemperatureMLModel.joblib using the joblib library.
+
+The streamlit library to create a user interface for the tool. The user is able to select a city from a list of options,
+and the program uses the machine learning model to predict the temperature for that city for any day of the year.
+The Program learns from over 800,000 data entries 
+collected over 25 years across 88 cities and 46 countries to create a complex and accurate model.
+
 ## Click Link Below 
 [Click Here to see the Program in action](https://itsnotrohit02-daily-temperature-predictor-temperatureapp-1ia1gd.streamlit.app/)
+
 ## How to Use the Program
 * Download the DailyTemperatures.csv file.
 * Download the required libraries as mentioned in the requirements.txt file.
