@@ -8,7 +8,7 @@ is stored in the variable y.
 The sklearn library is then used to create a decision tree regression model and train it on the data stored in X and y. 
 The trained model is then saved to a file called TemperatureMLModel.joblib using the joblib library.
 
-The streamlit library to create a user interface for the tool. The user is able to select a city from a list of options,
+The streamlit library is used to create a user interface for the program. The user is able to select a city from a list of options,
 and the program uses the machine learning model to predict the temperature for that city for any day of the year.
 The Program learns from over 800,000 data entries 
 collected over 25 years across 88 cities and 46 countries to create a complex and accurate model.
